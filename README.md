@@ -61,7 +61,7 @@ and significantly modified for learning, portfolio, and real eCommerce developme
 Frontend Developer from Ukraine 🇺🇦
 
 - GitHub: [@elkuroi](https://github.com/elkuroi)
-- Telegram: [@hyenawannahugtoo](https://t.me/your_tg_hyenawannahugtoo)
+- Telegram: [@hyenawannahugtoo](https://hyenawannahugtoo)
 - Email: [sinelyae32@gmail.com](mailto:sinelyae32@gmail.com)
 - LinkedIn: [linkedin.com/in/yehor-honcharov-8b43442a2](www.linkedin.com/in/yehor-honcharov-8b43442a2)
 
