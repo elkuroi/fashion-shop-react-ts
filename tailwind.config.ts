@@ -2,13 +2,13 @@ import type { Config } from 'tailwindcss'
 import colors from 'tailwindcss/colors'
 import { fontFamily } from 'tailwindcss/defaultTheme'
 
-export default {
+const config: Config = {
   content: [
-    'src/**/*!(*.stories|*.spec|*.test).{ts,tsx}',
-    'stories/*.stories.{ts,tsx}',
-    'index.html',
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}', 
+    './stories/*.stories.{ts,tsx}',
   ],
-  darkMode: 'class',
+  darkMode: 'class', 
   theme: {
     extend: {
       fontFamily: {
@@ -28,4 +28,6 @@ export default {
     require('tailwindcss-animate'),
     require('tailwindcss-react-aria-components'),
   ],
-} satisfies Config
+}
+
+export default config
