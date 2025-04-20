@@ -1,7 +1,11 @@
-import { RouterProvider } from 'react-router-dom'
+import ProductsPage from './pages/ProductsPage'
 
-import { router } from './routes'
-
-export default function App() {
-  return <RouterProvider router={router} />
+function App() {
+  return (
+    <div className="min-h-screen bg-white text-black">
+      <ProductsPage />
+    </div>
+  )
 }
+
+export default App

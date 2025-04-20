@@ -24,6 +24,8 @@
         "typecheck": "tsc -b"
     },
     "dependencies": {
+        "@stripe/stripe-js": "^7.1.0",
+        "framer-motion": "^12.7.4",
         "gotrue-js": "^0.9.29",
         "lucide-react": "^0.453.0",
         "react": "^18.3.1",
@@ -31,7 +33,9 @@
         "react-aria-components": "^1.4.1",
         "react-dom": "^18.3.1",
         "react-hook-form": "^7.53.1",
-        "react-router-dom": "^6.27.0"
+        "react-icons": "^5.5.0",
+        "react-router-dom": "^6.27.0",
+        "zustand": "^5.0.3"
     },
     "devDependencies": {
         "@biomejs/biome": "^1.9.4",
